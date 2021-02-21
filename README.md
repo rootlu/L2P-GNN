@@ -14,9 +14,10 @@ pip install -r requirements.txt
 
 All the necessary data files can be downloaded from the following links.
 
-For Biology dataset, download from [Google Drive](https://drive.google.com/drive/folders/18vpBvSajIrme2xsbx8Oq8aTWIWMlSgJT?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1Yv6dN7F1jgTSz9-nU1eN-A) (Extraction code: j97n), unzip it, and put it under `data/bio/`.
+For Biology dataset, download from [Google Drive](https://drive.google.com/drive/folders/18vpBvSajIrme2xsbx8Oq8aTWIWMlSgJT?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1Yv6dN7F1jgTSz9-nU1eN-A) (Extraction code: j97n), unzip it, and put the  under `data/bio/`.
 
-The new compilation of bibliographic graphs, i.e., PreDBLP,  download from [Google Drive](https://drive.google.com/drive/folders/18vpBvSajIrme2xsbx8Oq8aTWIWMlSgJT?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1Yv6dN7F1jgTSz9-nU1eN-A) (Extraction code: j97n), unzip it, and put it under `data/dblp/`.
+The new compilation of bibliographic graphs, i.e., PreDBLP,  download from [Google Drive](https://drive.google.com/drive/folders/18vpBvSajIrme2xsbx8Oq8aTWIWMlSgJT?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1Yv6dN7F1jgTSz9-nU1eN-A) (Extraction code: j97n), unzip it, and move the `dblp.graph` file to `data/dblp/unsupervised/processed/` and the `dblpfinetune.graph` file to `data/dblp/supervised/processed/`, respectively.
+
 
 ## Training
 
