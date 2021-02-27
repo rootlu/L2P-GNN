@@ -18,6 +18,8 @@ For Biology dataset, download from [Google Drive](https://drive.google.com/drive
 
 The new compilation of bibliographic graphs, i.e., PreDBLP,  download from [Google Drive](https://drive.google.com/drive/folders/18vpBvSajIrme2xsbx8Oq8aTWIWMlSgJT?usp=sharing) and [BaiduYun](https://pan.baidu.com/s/1Yv6dN7F1jgTSz9-nU1eN-A) (Extraction code: j97n), unzip it, and move the `dblp.graph` file to `data/dblp/unsupervised/processed/` and the `dblpfinetune.graph` file to `data/dblp/supervised/processed/`, respectively.
 
+Also, to avoid the "file incomplete" errors caused by compressed files, we also upload the uncompressed dblp dataset at [BaiduYun](https://pan.baidu.com/s/1Yv6dN7F1jgTSz9-nU1eN-A) (Extraction code: j97n).
+
 
 ## Training
 
@@ -31,7 +33,7 @@ The pre-trained models are saved into `res/DATASET/` .
 
 ## Evaluation
 
-To fine--tune L2P-GNN on Biology dataset, run:
+To fine-tune L2P-GNN on Biology dataset, run:
 
 ```shell
 python eval_bio.py --dataset DATASET  --gnn_type GNN_MODEL --emb_trained_model_file EMB_TRAINED_FILE --pre_trained_model_file GNN_TRAINED_FILE --pool_trained_model_file POOL_TRAINED_FILE --result_file RESULT_FILE --device 1
